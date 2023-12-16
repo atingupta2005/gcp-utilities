@@ -1,0 +1,19 @@
+## Download and install gcloud sdk on windows:
+
+https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
+
+## Create Python virtual environment
+python -m venv venv
+venv\scripts\activate
+pip install -r requirements.txt
+
+### Authenticate to GCP
+gcloud auth login
+gcloud init
+gcloud auth application-default login
+gcloud config set project PROJECT_ID
+gcloud auth list
+
+
+jupyter notebook --ip 0.0.0.0 --port 8888
+

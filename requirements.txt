@@ -1,0 +1,11 @@
+google-cloud-storage
+google-cloud
+google-cloud-compute
+google-cloud-bigquery
+google-cloud-bigquery-storage
+google-cloud-bigtable
+google-cloud-gke-hub
+google-cloud-logging
+google-cloud-spanner
+google-cloud-storage
+jupyter
